@@ -1,0 +1,93 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+	<title>University website design </title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/
+font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+	    <a href="index.html"><img src="./logo.png"></a>
+        <div class ="nav-links" id="navLinks">
+	    <i class="fa fa-times" onclick="hideMenu()"></i>
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="about.html">ABOUT</a></li>
+		<li><a href="course.html">COURSE</a></li>
+		<li><a href="blog.html">BLOG</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+	</ul>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></></i>
+	</nav>
+	<h1>About Us</h1>
+	</section>
+<!----------------about us content------->
+<section class="about-us">
+	<div class="row">
+		<div class ="about-col">
+		<h1>We are the Stanford library faculty</h1>
+		<p>The Standford library aims at providing access to its printed resources such as 
+		books and journals as well as electronic journals and online databases primarily 
+		for the use of faculty and staff at NCBS. Its holdings should reflect their intere
+		largely. The library stock is increasing at a rate of approximately 1,000 books
+		a year. The library also subscribes to over 100 current periodicals and to a
+		range of electronic journals and databases. The library is supervised by a 
+		committee consisting of the librarian and three members from the faculty.
+
+        <br>The day to day running of the library is conducted by the librarian who is assisted by the library staff and trainee. The library holdings will be checked annually by the library staff.</p>
+			<a href=""class="hero-btn red-btn">EXPLORE NOW </a>
+			
+		</div>
+		<div class="about-col">
+			<img src="about.jpg">
+		</div>
+	</div>
+</section>
+
+
+
+
+	
+
+<!----------------footer------>
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Explore the foundations of Integral Coaching in this highly experiential workshop.<br>
+		You'll learn powerful tools used in the method that you can employ right away.
+		November in WDC.</p>
+			
+			<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+			</div>
+			<p> made with <i class="fa fa-heart-o"></i> by priyanshi raval</p>
+</section>
+
+	
+	
+	
+<!---------javascript for toggle menu------>
+	<script>
+		var navLinks = document.getElementById("navLinks");
+	
+	    function showMenu()
+		{
+			navLinks.style.right = "0";
+			}
+		function hideMenu()
+		{
+			navLinks.style.right = "-200px";
+			}
+	</script>
+	
+</body>
+</html>
